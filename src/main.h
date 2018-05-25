@@ -54,6 +54,7 @@ struct CNodeStateStats;
 
 /** Masternode Amount **/
 static const int MASTERNODEAMOUNT = 3000;
+static std::map<int, int> masternodeTiersNew = map_list_of (1, 5000) (2, 10000) (3, 25000) (4, 50000); // 5000 - 1000 - 25000 - 50000
 
 /** Default for -blockmaxsize and -blockminsize, which control the range of sizes the mining code will create **/
 static const unsigned int DEFAULT_BLOCK_MAX_SIZE = 3000000;
