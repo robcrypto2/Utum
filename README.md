@@ -10,3 +10,8 @@ wget https://raw.githubusercontent.com/robcrypto2/Utum/master/masternode.sh
 chmod 755 masternode.sh
 ./masternode.sh
 
+Announcement: https://bitcointalk.org/index.php?topic=3471007.0
+Github: https://github.com/robcrypto2/Utum/
+Discord: https://discord.gg/VArqJWg
+Buy UTUM at Graviex: https://graviex.net/markets/utumbtc
+
