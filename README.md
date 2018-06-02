@@ -1,26 +1,25 @@
 Utum crypto
 
-UTUM setup files (copy)
-Setup instructions: https://github.com/robcrypto2/Utum/raw/master/wallets/utum_linux_mn_setup_guide_v2.pdf
+# UTUM setup files (updated by UTUM Community) 
 
-Wallets: https://github.com/robcrypto2/Utum/tree/master/wallets
+## Key links
+- Setup instructions: https://github.com/robcrypto2/Utum/raw/master/wallets/utum_linux_mn_setup_guide_v2.pdf
+- Wallets: https://github.com/robcrypto2/Utum/tree/master/wallets
+- Announcement: https://bitcointalk.org/index.php?topic=3471007.0
+- Github: https://github.com/robcrypto2/Utum/
+- Discord: https://discord.gg/VArqJWg
+- Buy UTUM at Graviex: https://graviex.net/markets/utumbtc
 
-Linux VPS masternode setup script
-wget https://raw.githubusercontent.com/robcrypto2/Utum/master/masternode.sh
-chmod 755 masternode.sh
+## Linux VPS masternode setup script 
+```
+wget https://raw.githubusercontent.com/robcrypto2/Utum/master/masternode.sh 
+chmod 755 masternode.sh 
 ./masternode.sh
+```
 
-Announcement: https://bitcointalk.org/index.php?topic=3471007.0
-
-Github: https://github.com/robcrypto2/Utum/
-
-Discord: https://discord.gg/VArqJWg
-
-Buy UTUM at Graviex: https://graviex.net/markets/utumbtc
-
-
-Nodes to add to wallet.conf file (from https://utum.ccore.online/connections)
-
+## Nodes to add to wallet.conf file
+From https://utum.ccore.online/connections
+```
 addnode=199.247.30.12:17121
 addnode=185.212.225.172:17121
 addnode=167.99.157.162:17121
@@ -40,3 +39,4 @@ addnode=45.77.150.7:17121
 addnode=5.45.84.60:53106
 addnode=171.232.197.191:55099
 addnode=98.174.63.28:63028
+```
