@@ -37,3 +37,32 @@ addnode=149.28.201.91:17121
 addnode=45.76.250.205:17121
 addnode=45.77.150.7:17121
 ```
+
+## Coin Info
+```
+Coin name: UTUM
+Coin ticker: UTUM
+Algorithm: QUARK
+Type: POW / POS / MN
+Block Time: 1 minute
+Min. staking age: 2 hours
+Rewards: MN - 60%, POS - 40%
+Last POW Block: 3000
+Max Coin Supply: 100 000 000 
+Coins required for MN:  3000
+Premine: 352 000
+
+POW + MN
+Block height	Reward
+1		Premine
+2 - 3000	1
+
+POS + MN
+Block height		Reward
+3001 - 12000		60
+12001 - 22000		100
+22001 - 42000		140
+42001 - 100000		100
+100001 - 160000		80
+>160001			60
+```
