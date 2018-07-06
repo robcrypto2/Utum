@@ -29,12 +29,16 @@ bash install_utum.sh
 ```
 #start masternode from Windows console where "utum_mn01" is your masternode alias
 masternode start-alias utum_mn01
+
 #masternode status
 utum-cli masternode status
+
 #restart UTUM service
 systemctl restart Utum.service
+
 #get info
 utum-cli getinfo
+
 #get blockcount
 utum-cli getinfo
 ```
