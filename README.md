@@ -17,6 +17,28 @@ chmod 755 masternode.sh
 ./masternode.sh
 ```
 
+## Linux VPS masternode setup script #2 (using binaries - faster install)
+```
+wget https://raw.githubusercontent.com/robcrypto2/utum1b/master/install_utum.sh
+chmod 755 install_utum.sh 
+su
+bash install_utum.sh
+```
+
+## Other useful commands
+```
+#start masternode from Windows console where "utum_mn01" is your masternode alias
+masternode start-alias utum_mn01
+#masternode status
+utum-cli masternode status
+#restart UTUM service
+systemctl restart Utum.service
+#get info
+utum-cli getinfo
+#get blockcount
+utum-cli getinfo
+```
+
 ## Nodes to add to wallet.conf file
 From https://utum.ccore.online/connections
 ```
