@@ -46,6 +46,7 @@ utum-cli getinfo
 ## Nodes to add to wallet.conf file
 From https://utum.ccore.online/connections
 ```
+addnode=80.211.144.238:17121
 addnode=199.247.30.12:17121
 addnode=185.212.225.172:17121
 addnode=167.99.157.162:17121
